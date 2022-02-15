@@ -129,7 +129,6 @@ export default function App() {
           {listElements}
         </div>
         <div className="country-card-block">
-          {/* <button onClick={getCountryData}>GET</button> */}
           {dataIsLoading ? (
             <Spinner />
           ) : (
